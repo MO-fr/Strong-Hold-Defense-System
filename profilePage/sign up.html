@@ -1,43 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Set character encoding and viewport settings for responsive design -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strong Hold Defense System</title>
+    <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="b-case.css">
+    <!-- Link to external JavaScript file, loaded with defer to run after HTML parsing -->
     <script defer src="app.js"></script> 
 </head>
 <body class="body">
+    <!-- Main container for the content -->
     <div class="container">
         <h1>Sign Into Profile...</h1>
+        <!-- Grid layout for input fields -->
         <div class="grid-container">
             <div class="grid-item">
+                <!-- Input field for email -->
                 <label for="email">
                     <h3 class="email">Email:</h3>
                 </label>
                 <input type="email" id="email" required>
 
+                <!-- Input field for full name -->
                 <label for="name">
                     <h3 class="name">Full Name:</h3>
                 </label>
                 <input type="name" id="name" required>
 
+                <!-- Input field for password -->
                 <label for="password">
                     <h3 class="password">Type password:</h3>
                 </label>
                 <input type="password" id="password" required>
 
+                <!-- Input field for re-typing password -->
                 <label for="retype-password">
                     <h3 class="retype-password">Retype password:</h3>
                 </label>
                 <input type="retype-password" id="retype-password" required>
 
+                <!-- Submit button -->
                 <button id="submit-button">Lets GO!</button>
             </div>
-        
         </div>
     </div>
-   
-    
 </body>
 </html>

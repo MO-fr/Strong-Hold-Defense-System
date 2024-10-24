@@ -21,34 +21,36 @@ body {
     height: 600px;
 }
 
-.email{
+/* Styling for label text near input fields */
+.email {
     position: relative;
     bottom: 19px;
     right: 120px;
     font-size: medium;
 }
 
-.name{
+.name {
     position: relative;
     bottom: 19px;
     right: 106px;
     font-size: medium;
 }
 
-.password{
+.password {
     position: relative;
     bottom: 19px;
     right: 90px;
     font-size: medium;
 }
 
-.retype-password{
+.retype-password {
     position: relative;
     bottom: 19px;
     right: 80px;
     font-size: medium;
 }
 
+/* Input fields styling */
 #retype-password[type="retype-password"],
 #password[type="password"],
 #name[type="name"],
@@ -63,7 +65,6 @@ body {
     border: 1px solid #ccc; /* Light gray border */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Add shadow effect */
 }
-
 
 /* Title Styling */
 .container h1 {
@@ -94,7 +95,7 @@ body {
     height: 400px;
 }
 
-/* Health and Power Styling */
+/* Paragraph text inside grid items */
 .grid-item p {
     font-size: 16px;
     color: #555;
@@ -120,14 +121,8 @@ button {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
+/* Hover effect for the button */
 button:hover {
     background-color: #45a049;
     transform: scale(1.1);
 }
-
-
-
-
-
-
-
