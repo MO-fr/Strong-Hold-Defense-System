@@ -13,13 +13,57 @@ body {
 /* Container Styling */
 .container {
     background-color: #ffffff;
-    border-radius: 30px;
+    border-radius: 50px;
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(247, 244, 244, 0.6);
     text-align: center;
     max-width: 400px;
     width: 100%;
+    height: 600px;
 }
+
+.email{
+    position: relative;
+    bottom: 19px;
+    right: 120px;
+    font-size: medium;
+}
+
+.name{
+    position: relative;
+    bottom: 19px;
+    right: 106px;
+    font-size: medium;
+}
+
+.password{
+    position: relative;
+    bottom: 19px;
+    right: 90px;
+    font-size: medium;
+}
+
+.retype-password{
+    position: relative;
+    bottom: 19px;
+    right: 80px;
+    font-size: medium;
+}
+
+#retype-password[type="retype-password"],
+#password[type="password"],
+#name[type="name"],
+#email[type="email"] {
+    position: relative;
+    bottom: 40px;
+    right: 12px; /* Adjust position */
+    width: 90%; /* Make input fields full-width */
+    padding: 10px; /* Add padding inside input fields */
+    margin: 10px 0; /* Add margin above and below */
+    border-radius: 20px; /* Make input corners rounded */
+    border: 1px solid #ccc; /* Light gray border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+}
+
 
 /* Title Styling */
 .container h1 {
@@ -46,7 +90,8 @@ body {
     position: relative;
     left: 36px;
     width: 300px;
-    bottom: 40px;
+    top: 30px;
+    height: 400px;
 }
 
 /* Health and Power Styling */
@@ -57,7 +102,8 @@ body {
 
 /* Button Styling */
 button {
-    background-color: #4CAF50;
+    width: 380px;
+    background-color: #1dc922;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     color: white;
@@ -67,7 +113,8 @@ button {
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    top: 66px;
+    top: 20px;
+    right: 50px;
     transition: background-color 0.3s ease;
     box-shadow: 0 4px 8px rgba(26, 24, 24, 0.6);
     transition: background-color 0.3s ease, transform 0.3s ease;
@@ -77,4 +124,10 @@ button:hover {
     background-color: #45a049;
     transform: scale(1.1);
 }
+
+
+
+
+
+
 
