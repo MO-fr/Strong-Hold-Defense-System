@@ -1,7 +1,7 @@
 /* Basic Body Styling */
 body {
-    font-family: Arial, sans-serif;
-    background: #000000;
+    font-family: Candara;
+    background: #e0cdcd;
     margin: 0;
     padding: 0;
     display: flex;
@@ -10,15 +10,35 @@ body {
     height: 100vh;
 }
 
+.pfp {
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+    width: 100px; /* Set your desired width */
+    height: 100px; /* Set your desired height */
+    z-index: 10; /* Use a higher number to bring it forward */
+}
+
+.lock{
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    size-adjust: 10px;
+}
+
 /* Container Styling */
 .container {
+    position: relative;
+    top: 160px;
     background-color: #ffffff;
     border-radius: 50px;
     padding: 20px;
     text-align: center;
     max-width: 400px;
     width: 100%;
-    height: 600px;
+    height: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Add shadow effect */
+
 }
 
 /* Styling for label text near input fields */
@@ -71,7 +91,7 @@ body {
     color: rgb(8, 8, 8);
     font-size: 28px;
     position: relative;
-    top: 40px;
+    top: 190px;
     right: 0px;
     font-size:large;
 }
@@ -92,7 +112,7 @@ body {
     position: relative;
     left: 36px;
     width: 300px;
-    top: 30px;
+    top: 200px;
     height: 400px;
 }
 
@@ -105,8 +125,8 @@ body {
 /* Button Styling */
 button {
     width: 100%;
-    background-color: #38ce3d;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f18911;
+    font-family: monospace;
     font-weight: bold;
     color: white;
     border: none;
@@ -115,7 +135,7 @@ button {
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    top: 35px;
+    top: 60px;
     left: 4px;
     box-shadow: 0 4px 8px rgba(26, 24, 24, 0.6);
     transition: background-color 0.3s ease, transform 0.3s ease;
