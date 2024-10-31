@@ -12,7 +12,7 @@ body {
 
 .pfp {
     position: relative;
-    left: 786px;
+    left: 665px;
     bottom: 100px;
     width: 100px; /* Set your desired width */
     height: 100px; /* Set your desired height */
@@ -21,15 +21,24 @@ body {
 
 .lock{
     position: relative;
-    left: 50px;
+    right: 50px;
     bottom: 100px;
     size-adjust: 10px;
 }
 
+.login-text {
+    position: relative;
+    top: 470px;
+    left: 846px;
+    z-index: 10;
+    /* font-weight: bold; */
+}
+
 /* Container Styling */
-.container {
+.signUp-form {
     position: relative;
     top: 160px;
+    right: 120px;
     background-color: #ffffff;
     border-radius: 50px;
     padding: 20px;
@@ -39,6 +48,12 @@ body {
     height: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Add shadow effect */
 
+}
+
+.profileError{
+    position: relative;
+    bottom: 489px;
+    font-weight: bold;
 }
 
 /* Styling for label text near input fields */
@@ -63,7 +78,7 @@ body {
     font-size: small;
 }
 
-.retype-password {
+.confirmPassword {
     position: relative;
     bottom: 19px;
     right: 80px;
@@ -71,7 +86,7 @@ body {
 }
 
 /* Input fields styling */
-#retype-password[type="retype-password"],
+#confirmPassword[type="confirmPassword"],
 #password[type="password"],
 #name[type="name"],
 #email[type="email"] {
@@ -112,7 +127,7 @@ body {
     position: relative;
     left: 36px;
     width: 300px;
-    top: 200px;
+    top: 165px;
     height: 400px;
 }
 
@@ -135,11 +150,19 @@ button {
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    top: 60px;
+    top: 80px;
     left: 4px;
     box-shadow: 0 4px 8px rgba(26, 24, 24, 0.6);
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.login-link {
+    color: blue; /* Set the color to blue */
+    cursor: pointer; /* Optional: Adds a pointer cursor to make it look clickable */
+    text-decoration: underline; /* Optional: Adds an underline to resemble a link */
+    font-weight: bold; /* Bolds text */
+}
+
 
 /* Hover effect for the button */
 button:hover {

@@ -8,10 +8,11 @@
     <!-- Link to external CSS file for styling -->
     <link rel="stylesheet" href="b-case.css">
     <!-- Link to external JavaScript file, loaded with defer to run after HTML parsing -->
-    <script defer src="app.js"></script> 
+    <script defer src="signup.js"></script> 
 </head>
 <body class="body">
 
+    <p class="login-text"> Already Have an account? | <span class="login-link">Login here.</span></p>
 
      <!-- Lock Icon and it's container -->
      <div class="Profile-pic"> 
@@ -24,7 +25,7 @@
     </div>
 
     <!-- Main container for the content -->
-    <div class="container">
+    <div class="signUp-form" id="signUp-form">
         <h1>Sign Into Profile</h1>
         <!-- Grid layout for input fields -->
         <div class="grid-container">
@@ -48,13 +49,16 @@
                 <input type="password" id="password" required>
 
                 <!-- Input field for re-typing password -->
-                <label for="retype-password">
-                    <h3 class="retype-password">RETYPE PASSWORD:</h3>
+                <label for="confirmPassword">
+                    <h3 class="confirmPassword">RETYPE PASSWORD:</h3>
                 </label>
-                <input type="retype-password" id="retype-password" required>
+                <input type="confirmPassword" id="confirmPassword" required>
 
                 <!-- Submit button -->
                 <button id="submit-button">Lets GO!</button>
+
+                <!-- Error message container -->
+                <div id="profileError" class="profileError"></div>
             </div>
         </div>
     </div>
